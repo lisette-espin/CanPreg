@@ -1,0 +1,1 @@
+* all countries should have a file <CCODE3>_all_census_stats.csv where all census data is reported per region and year.
