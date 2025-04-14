@@ -1,10 +1,6 @@
 # CanPreg
 Cannabis use During Pregnancy: A Spatio-Temporal Analysis on Twitter
 
-## Data
-Aggregate values for survey & Twitter data, and contry shape files: https://osf.io/p5d9y/?view_only=6b440b8309a840bf9b4f946c48bd83fc
-- Note that tweet and author ids are anonymized, and tweet text has been replaced by the CanPreg keywords contained in the tweet.
-
 ```
 data/  
 ├── annotations/                      *(annotation files for ground-truth sample)*
@@ -18,3 +14,47 @@ results/
 ├── corpus_53K_tweets_valid_anon.csv  *(USA & CAN tweets metadata)*
 └── RQ3_corpus_embeddings_small.pt    *(SBERT model to perform fast clustering)*
 ```
+
+## Data
+Aggregate values for survey & Twitter data, and country shape files: [https://doi.org/10.17605/OSF.IO/P5D9Y](https://doi.org/10.17605/OSF.IO/P5D9Y)
+- Note that tweet and author ids are anonymized, and tweet text has been replaced by the CanPreg keywords contained in the tweet.
+
+## How to cite
+
+If you use any implementation from this repository, please cite both the repository and the corresponding paper as follows:
+
+### Citing the GitHub repository
+
+<pre>
+  @software{canpreg2025code,
+            author = {{Lisette Espín-Noboa}},
+            title = {{CanPreg}},
+            year = {2025},
+            publisher = {GitHub},
+            journal = {GitHub repository},
+            howpublished = {\url{[https://github.com/lisette-espin/CanPreg](https://github.com/lisette-espin/CanPreg)}}}
+</pre>
+
+### Citing the ICWSM paper
+
+<pre>
+  @inproceedings{canpreg2025,
+                 title={{Cannabis Use During Pregnancy: Insights from Online Discourse and Socioeconomic Indicators Across the USA and Canada}},
+                 author={Espín-Noboa, Lisette and Farsiu, Nikou and Corsi, Daniel J. and Karsai Márton},
+                 booktitle={{Proceedings of the international AAAI Conference on Web and Social Media}},
+                 year={2025}}
+</pre>
+
+### Citing the dataset
+
+<pre>
+  @dataset{canpreg2025data,
+           title={{Cannabis Use During Pregnancy: Insights from Online Discourse and Socioeconomic Indicators Across the USA and Canada}},
+           author={Espín-Noboa, Lisette and Farsiu, Nikou},
+           year={2025}
+           url={\url{[https://doi.org/10.17605/OSF.IO/P5D9Y](https://doi.org/10.17605/OSF.IO/P5D9Y)}}}
+</pre>
+
+Thank you for citing our work! 🚀
+
+
