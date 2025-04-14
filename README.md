@@ -49,7 +49,7 @@ If you use any implementation from this repository, please cite both the reposit
 
 <pre>
   @dataset{canpreg2025data,
-           title={{Cannabis Use During Pregnancy: Insights from Online Discourse and Socioeconomic Indicators Across the USA and Canada}},
+           title={{CanPreg Datasets}},
            author={Espín-Noboa, Lisette and Farsiu, Nikou and Corsi, Daniel J. and Karsai Márton},
            year={2025}
            url={\url{https://doi.org/10.17605/OSF.IO/P5D9Y}}}
